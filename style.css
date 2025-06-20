@@ -3,3 +3,63 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8ab9d9;
+    padding: 15px 40px;
+}
+
+.header-img img{
+    width: 180px;
+}
+
+.svg{
+    width: 20px;
+    height: 20px;
+    color: #2e2e2e;
+}
+
+.header-social{
+    display: flex;
+    gap: 20px;
+    
+}
+
+ .header-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+ }
+
+ .header-nav a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .header-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+ .imgvideo{
+    background-size: cover;
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/notrthern-lights-nordic-sock-company.webp?v=1699104281);
+    height:475px;
+    width: 1366px;
+    background-position: center;
+}
+
+.imgvideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+
+}
