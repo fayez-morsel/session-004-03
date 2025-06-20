@@ -262,3 +262,54 @@ h2, strong, p , a{
     white-space: 5px;
 }
 
+.section5{
+    display: flex;
+    height: 584px;
+    margin: 50px 0;
+    justify-content: center;
+
+}
+
+.section5-p p{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2e2e2e;
+}
+
+.section5-img {
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.section5-img1 div{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/VL_024_NordicSockCompany_94_b8296d37-0e4a-4c02-a76c-4360ec455294_900x.jpg?v=1623012325);
+    height: 322px;
+    width: 342px;
+    background-size: cover;
+}
+
+.section5-img2 div{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/nordic-sock-company-pine-green-socks-3_900x.jpg?v=1731413902);
+    height: 322px;
+    width: 342px;
+    background-size: cover;
+}
+
+.section5-img3 div{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/Nordic_Sock_Company_-_Sisu_Of_Finland_-_Baltic_Blue_square_360x.jpg?v=1731413955);
+    height: 322px;
+    width: 342px;
+    background-size: cover;
+}
+
+.section5-img p{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 0;
+    color: #2e2e2e;
+}
