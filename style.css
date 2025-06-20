@@ -111,3 +111,90 @@ h2, strong, p , a{
 }
 
 
+.i1{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/classic-nordic-socks-main_600x600.jpg?v=1623005336);
+    background-size:cover ;
+    height: 343px;
+    width: 334px;        
+}
+.i2{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/swedish-lagom-wool-blend-socks_600x600.jpg?v=1631959455);
+    background-size:cover ;
+    height: 343px;
+    width: 334px;
+}
+.i3{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1447_White_d35ef655-74c5-4f40-9816-5d7bccd32fa1_600x600.jpg?v=1660749391);
+    background-size:cover ;
+    height: 345px;
+    width: 334px;
+}
+.i4{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1452_Whitecopy_600x600.jpg?v=1635954934);
+    background-size:cover ;
+    height: 343px;
+    width: 334px;
+}
+.i5{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1459_Whitecopy_600x600.jpg?v=1635611351);
+    background-size:cover ;
+    height: 343px;
+    width: 334px;
+    }
+.i6{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1447_White_600x600.jpg?v=1636644130);
+    background-size:cover ;
+    height: 343px;
+    width: 334px;
+}
+.i7{
+    background-image: url(http://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1456_White_600x600.jpg?v=1635608967);
+    background-size:cover ;
+    height: 343px;
+    width: 334px;
+}
+.i8{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1446_White_600x600.jpg?v=1635449612);
+    background-size:cover ;
+    height: 343px;
+    width: 334px;
+}
+.i9{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/boot-socks-green_600x600.jpg?v=1694420360);
+    background-size:cover ;
+    height: 343px;
+    width: 334px;
+}
+
+.ayas{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.ayasora{
+    margin: 30px 0;
+}
+
+.ayass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.p3{
+    font-size: 15px;
+    color:#3a3a3a;
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
+.p4{
+    color:#333232;
+    font-size: 20px;
+}
+
+.h31{
+    color: gray;
+}
