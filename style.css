@@ -90,6 +90,11 @@ header{
     align-items: center;
     text-decoration: none;
     gap: 30px;
+    transition: transform 0.7s cubic-bezier(0.25, 0.45, 0.45, 1.5);
+}
+
+.imgvideo div:hover{
+    transform: scale(1.1);
 }
 
 .imgvideo h2 {
@@ -98,6 +103,7 @@ header{
     display: flex;
     justify-content: center;
     text-decoration: none;
+    color: white;
 }
 
 .imgvideo strong{
@@ -105,7 +111,7 @@ header{
     display: flex;
     width: 100%;
     justify-content: center;
- 
+    color: white;
 }
 
 .section2{
