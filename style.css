@@ -137,55 +137,125 @@ h2, strong, p , a{
     background-image: url(https://nordicsockcompany.com/cdn/shop/products/classic-nordic-socks-main_600x600.jpg?v=1623005336);
     background-size:cover ;
     height: 343px;
-    width: 334px;        
+    width: 334px; 
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+         
+}
+
+.i1:hover{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_024_NordicSockCompany_60_600x600.jpg?v=1623005336);
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .i2{
     background-image: url(https://nordicsockcompany.com/cdn/shop/products/swedish-lagom-wool-blend-socks_600x600.jpg?v=1631959455);
     background-size:cover ;
     height: 343px;
     width: 334px;
+    transition: all 0.5s ease-in-out;  
+}
+
+
+.i2:hover{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/Swedish-warm-ochre-NSC_600x600.jpg?v=1731412618);
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .i3{
     background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1447_White_d35ef655-74c5-4f40-9816-5d7bccd32fa1_600x600.jpg?v=1660749391);
     background-size:cover ;
     height: 345px;
     width: 334px;
+    transition: all 0.5s ease-in-out;  
+}
+
+.i3:hover{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_045_NordicSockCo_DSC0973_600x600.jpg?v=1660749391);
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .i4{
     background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1452_Whitecopy_600x600.jpg?v=1635954934);
     background-size:cover ;
     height: 343px;
     width: 334px;
+    transition: all 0.5s ease-in-out;  
+}
+.i4:hover{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/Nordic_Sock_Company_-_Norwegian_Fjord_Socks_600x600.jpg?v=1731414110);
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .i5{
     background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1459_Whitecopy_600x600.jpg?v=1635611351);
     background-size:cover ;
     height: 343px;
     width: 334px;
+    transition: all 0.5s ease-in-out;  
     }
+.i5:hover{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1373copy_600x600.jpg?v=1635611352);
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
 .i6{
     background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1447_White_600x600.jpg?v=1636644130);
     background-size:cover ;
     height: 343px;
     width: 334px;
+    transition: all 0.5s ease-in-out;  
+}
+.i6:hover{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock__VA87853_600x600.jpg?v=1666723473);
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .i7{
     background-image: url(http://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1456_White_600x600.jpg?v=1635608967);
     background-size:cover ;
     height: 343px;
     width: 334px;
+    transition: all 0.5s ease-in-out;
 }
+.i7:hover{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/Nordic_Sock_Company_-_Sisu_Of_Finland_-_Baltic_Blue_600x600.jpg?v=1731412884);
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .i8{
     background-image: url(https://nordicsockcompany.com/cdn/shop/products/VL_037_NordicSock_1446_White_600x600.jpg?v=1635449612);
     background-size:cover ;
     height: 343px;
     width: 334px;
+    transition: all 0.5s ease-in-out;
+}
+.i8:hover{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/Nordic_Noir_-_Nordic_Sock_Company_600x600.jpg?v=1731412966);
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .i9{
     background-image: url(https://nordicsockcompany.com/cdn/shop/files/boot-socks-green_600x600.jpg?v=1694420360);
     background-size:cover ;
     height: 343px;
     width: 334px;
+    transition: all 0.5s ease-in-out;
+}
+.i9:hover{
+    background-image: url(https://nordicsockcompany.com/cdn/shop/files/nordic-sock-company-pine-green-socks-3_600x600.jpg?v=1731413902);
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .ayas{
@@ -250,7 +320,10 @@ h2, strong, p , a{
     gap: 20px;
     font-size: 18px;  
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
+
+
 
 .p-section3 p{
     color: rgb(81, 80, 80);
@@ -476,6 +549,11 @@ h2, strong, p , a{
     border: solid 1px #000;
     background-color: #3a3a3a;
     padding: 0 15px;    
+    transition: all 0.3s ease-in-out;
+}
+
+#footer2-down-btn:hover{
+    background-color: #2f2f2f;
 }
 
 .footer-bottom img{
