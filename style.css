@@ -29,6 +29,16 @@ header{
     
 }
 
+.header-social div{
+    transition: all 0.3s ease;
+
+}
+
+.svg:hover{
+    border-radius: 50%;
+    background-color: white;
+}
+
  .header-nav ul {
     list-style: none;
     display: flex;
@@ -40,6 +50,12 @@ header{
     color: #3a3a3a;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease;
+ }
+
+ .header-nav a:hover{
+    color: #1e1e1e;
+    border-bottom: solid 3px #2e2e2e;
  }
 
  .header-nav{
@@ -74,6 +90,11 @@ header{
     align-items: center;
     text-decoration: none;
     gap: 30px;
+    transition: transform 0.7s cubic-bezier(0.25, 0.45, 0.45, 1.5);
+}
+
+.imgvideo div:hover{
+    transform: scale(1.1);
 }
 
 .imgvideo h2 {
@@ -82,6 +103,7 @@ header{
     display: flex;
     justify-content: center;
     text-decoration: none;
+    color: white;
 }
 
 .imgvideo strong{
@@ -89,7 +111,7 @@ header{
     display: flex;
     width: 100%;
     justify-content: center;
- 
+    color: white;
 }
 
 .section2{
