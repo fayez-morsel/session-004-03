@@ -54,6 +54,7 @@ header{
     height:475px;
     width: 100%;
     background-position: center;
+    margin-bottom: 45px;
 }
 
 .imgvideo{
@@ -71,6 +72,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
     gap: 30px;
 }
 
@@ -79,6 +81,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .imgvideo strong{
@@ -87,6 +90,24 @@ header{
     width: 100%;
     justify-content: center;
  
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.svg1{
+    height: 20px;
+}
+
+h2, strong, p , a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-decoration: underline color(srgb rgba(255, 0, 0, 0) green blue);
+  
 }
 
 
